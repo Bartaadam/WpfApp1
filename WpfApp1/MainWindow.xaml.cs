@@ -27,6 +27,8 @@ namespace WpfApp1
         {
             InitializeComponent();
             listbox1.ItemsSource = lista;
+            combobox1.ItemsSource = lista;
+            lista.Add("negyedik");
         }
 
         private void button1_Click_1(object sender, RoutedEventArgs e)
@@ -48,6 +50,11 @@ namespace WpfApp1
         private void listbox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             label1.Content = listbox1.SelectedItem;
+        }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            label1.Content=combobox1.SelectedItem;
         }
     }
 }
