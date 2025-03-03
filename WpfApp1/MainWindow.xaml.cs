@@ -24,5 +24,21 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void button1_Click_1(object sender, RoutedEventArgs e)
+        {
+            label1.Content = "Hello";
+            MessageBox.Show("hello");
+        }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
