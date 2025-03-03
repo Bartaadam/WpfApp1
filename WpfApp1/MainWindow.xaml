@@ -16,6 +16,9 @@
         <ListBox x:Name="listbox1" Margin="21,148,656,168" SelectionChanged="listbox1_SelectionChanged"/>
         <ComboBox x:Name="combobox1" HorizontalAlignment="Left" Margin="165,148,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged"/>
         <CheckBox x:Name="chkAfaval" Content="Áfával" HorizontalAlignment="Left" Margin="314,151,0,0" VerticalAlignment="Top" IsChecked="False"/>
+        <RadioButton x:Name="radio1" Content="Férfi" HorizontalAlignment="Left" Margin="314,191,0,0" VerticalAlignment="Top" GroupName="nemek"/>
+        <RadioButton x:Name="radio2" Content="Nő" HorizontalAlignment="Left" Margin="314,221,0,0" VerticalAlignment="Top" GroupName="nemek"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="65" Margin="304,180,0,0" VerticalAlignment="Top" Width="116"/>
 
     </Grid>
 </Window>
