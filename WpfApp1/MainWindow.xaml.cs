@@ -44,7 +44,8 @@ namespace WpfApp1
 
         private void button3_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show((int.Parse(textbox1.Text) + int.Parse(textbox2.Text)).ToString());
+            var ar = ((bool)chkAfaval.IsChecked ?(int.Parse(textbox1.Text) + int.Parse(textbox2.Text))*1.27 : int.Parse(textbox1.Text) + int.Parse(textbox2.Text));
+            MessageBox.Show(ar.ToString());
         }
 
         private void listbox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
