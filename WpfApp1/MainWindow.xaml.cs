@@ -38,7 +38,7 @@ namespace WpfApp1
 
         private void button3_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show((int.Parse(textbox1.Text) + int.Parse(textbox2.Text)).ToString());
         }
     }
 }

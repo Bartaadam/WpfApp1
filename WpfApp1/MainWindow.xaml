@@ -10,8 +10,8 @@
         <Label x:Name="label1" Content="Barta Ádám" HorizontalAlignment="Left" VerticalAlignment="Top" Height="26" Width="76"/>
         <Button x:Name="button1" Content="OK" HorizontalAlignment="Left" Margin="210,11,0,0" VerticalAlignment="Top" Width="61" Click="button1_Click_1"/>
         <Button x:Name="button2" Content="KILÉP" HorizontalAlignment="Left" Margin="209,36,0,0" VerticalAlignment="Top" Width="61" Click="button2_Click"/>
-        <TextBox HorizontalAlignment="Left" Margin="210,105,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="371,105,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Margin="210,105,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textbox2" HorizontalAlignment="Left" Margin="371,105,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="button3" Content="SZÁMOL" HorizontalAlignment="Left" Margin="519,104,0,0" VerticalAlignment="Top" Click="button3_Click"/>
 
     </Grid>
