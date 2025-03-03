@@ -57,5 +57,15 @@ namespace WpfApp1
         {
             label1.Content=combobox1.SelectedItem;
         }
+
+        private void radio1_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void radio2_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
