@@ -20,9 +20,13 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
+        List<string> lista = new List<string>(){
+        "első","második","harmadik"
+        };
         public MainWindow()
         {
             InitializeComponent();
+            listbox1.ItemsSource = lista;
         }
 
         private void button1_Click_1(object sender, RoutedEventArgs e)
@@ -39,6 +43,11 @@ namespace WpfApp1
         private void button3_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show((int.Parse(textbox1.Text) + int.Parse(textbox2.Text)).ToString());
+        }
+
+        private void listbox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            label1.Content = listbox1.SelectedItem;
         }
     }
 }
